@@ -7,7 +7,7 @@ module.exports = {
     },
     //output으로 생성할 파일을 선언합니다.
     output: {
-        path: path.resolve(__dirname, './dist/bundle'),
+        path: path.resolve(__dirname, '../server/public/js'),
         filename: 'build.js'
     },
     module: {

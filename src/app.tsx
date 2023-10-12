@@ -1,5 +1,10 @@
+import { RecoilRoot } from "recoil";
+import List from "./page/list.page";
+
 const App = () => (
-    <div>Hello World</div>
+    <RecoilRoot>
+        <List />
+    </RecoilRoot>
 )
 
 export default App;
